@@ -1,0 +1,13 @@
+body{
+    background: url("./images/flower2.jpg");
+    background-size: cover;
+}
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+}
+
+.btn {
+    align-items: center;
+}
