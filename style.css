@@ -8,6 +8,35 @@ h1{
     text-align: center;
 }
 
+.addToList{
+   padding: 100px;
+}
+
+#taskInput {
+    height: 100px;
+    width: 500px;
+}
+
+#startButton, #stopButton {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 100px;
+}
 .btn {
     align-items: center;
+}
+
+table, tr {
+    border: 1px solid black;
+}
+
+h2 {
+    display: flex;
+    padding: 100px;
+    color: aliceblue;
+}
+
+.mainContent {
+    display: flex;
 }

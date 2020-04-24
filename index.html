@@ -12,17 +12,23 @@
 
 <body>
     <h1>Welcome to Time Tracker!</h1>
-    <div class="addToList">
-        <input id="taskInput" type="text" placeholder="ADD YOUR CURRENT TASK">
-        <button type="button" class="btn btn-info">Add</button>
+    <div class="mainContent">
+        <div class="taskWidget">
+            <div class="addToList">
+                <textarea id="taskInput" rows="5" cols="5" placeholder="ADD YOUR CURRENT TASK"></textarea>
+            </div>
+            <div class="startAndStop">
+                <button type="button" class="btn btn-info" id="startButton" onclick="startButton()">Start the
+                    Day</button>
+                <button type="button" class="btn btn-info" id="stopButton">Stop the Task</button>
+            </div>
+        </div>
+        <div class="displayWidget">
+            <h2>Started the day!</h2>
+        </div>
+
     </div>
-    <div class="startAndStop">
-        <button type="button" class="btn btn-info">Start</button>
-        <button type="button" class="btn btn-info">Stop</button>
-    </div>
-    <div class="listContainer">
-        <ul class="list-group"></ul>
-    </div>
+    <script src="timeTracker.js"></script>
 </body>
 
 
