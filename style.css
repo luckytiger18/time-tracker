@@ -15,6 +15,7 @@ h1{
 #taskInput {
     height: 100px;
     width: 500px;
+    border-radius: 5px;
 }
 
 #startButton, #stopButton {
@@ -22,9 +23,11 @@ h1{
     height: 200px;
     margin: 10px;
     margin-left: 100px;
+   
 }
 .btn {
     align-items: center;
+    background-color: powderblue
 }
 
 table, tr {
