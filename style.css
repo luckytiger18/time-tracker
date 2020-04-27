@@ -1,6 +1,7 @@
 body{
     background: url("./images/flower2.jpg");
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1{
@@ -16,6 +17,7 @@ h1{
     height: 100px;
     width: 500px;
     border-radius: 5px;
+
 }
 
 #startButton, #stopButton {
@@ -23,6 +25,7 @@ h1{
     height: 200px;
     margin: 10px;
     margin-left: 100px;
+    font-weight: 100px;
    
 }
 .btn {
@@ -52,5 +55,7 @@ footer {
 }
 
 p{
-    color: aliceblue;
+    color: #BEE6C3;
+    font-weight: bold;
+    font-size: 20px;
 }
