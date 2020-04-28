@@ -1,4 +1,4 @@
-var lastTaskTime = 0;
+var lastTaskTime = Date.now();
 
 function startButton() {
     var dateNow = new Date();
@@ -28,9 +28,9 @@ function stopTask() {
 
 // utility function
 function elapsedTime(preTime) {
-    var getNowTime = Date.now()
-    console.log(getNowTime)
-    console.log(preTime)
+    var getNowTime = Date.now();
+    console.log(getNowTime);
+    console.log(preTime);
     return (getNowTime - preTime) / 1000
 }
 

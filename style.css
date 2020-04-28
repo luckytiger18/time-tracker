@@ -59,3 +59,14 @@ p{
     font-weight: bold;
     font-size: 20px;
 }
+
+.description {
+   color: rgb(224, 131, 139);
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+#descriptionContainer {
+    background-color: aliceblue;
+    opacity: 70%;
+}

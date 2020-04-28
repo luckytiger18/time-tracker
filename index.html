@@ -13,11 +13,19 @@
 
 <body>
     <h1>Welcome to Time Tracker!</h1>
+    <div id="descriptionContainer" class="jumbotron jumbotron-fluid">
+        <p class="description">To start your day, just click on the Start button. Input the task name in the box then
+            click Stop whenever you have completed the task. The app will automatcally calculate the duration of the
+            task based on the completion time of the previous task. This will display the Task Name, Completion Time,
+            and Elapsed Time.</p>
+    </div>
     <div class="mainContent">
         <div class="taskWidget">
             <div class="addToList">
-                <textarea id="taskInput" rows="5" cols="5" onfocus="this.value=''" placeholder="ADD YOUR CURRENT TASK"></textarea>
+                <textarea id="taskInput" rows="5" cols="5" onfocus="this.value=''"
+                    placeholder="ADD YOUR CURRENT TASK"></textarea>
             </div>
+
             <div class="startAndStop">
                 <button type="button" class="btn btn-light" id="startButton" onclick="startButton()">Start the
                     Day</button>
@@ -27,7 +35,7 @@
         <div class="displayWidget">
             <h2>Started the day!</h2>
             <div id="list"></div>
-        
+
         </div>
 
     </div>
@@ -35,5 +43,6 @@
     <!-- <script src="moment.js"></script> -->
 </body>
 
-<footer>Made with Love by Annie Luc</footer>
+<footer>Made with Love by Annie Luc | Version 1.0</footer>
+
 </html>
