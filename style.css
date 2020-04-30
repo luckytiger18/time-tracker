@@ -1,7 +1,10 @@
 body{
-    background: url("./images/flower2.jpg");
-    background-size: cover;
+    background: url("./images/flower2.jpg") no-repeat center fixed;
+    object-fit: fill;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    background-color: black;
+    width: 100%;
 }
 
 h1{
@@ -10,7 +13,7 @@ h1{
 }
 
 .addToList{
-   padding: 100px;
+   padding: 0 100px;
 }
 
 #taskInput {
@@ -39,7 +42,7 @@ table, tr {
 
 h2 {
     display: flex;
-    padding: 100px;
+    padding: 0 100px;
     color: aliceblue;
 }
 
@@ -67,6 +70,6 @@ p{
 }
 
 #descriptionContainer {
-    background-color: aliceblue;
-    opacity: 70%;
+    background-color: rgb(240, 255, 252);
+    opacity: 0.8;
 }
