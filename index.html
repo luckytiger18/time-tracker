@@ -12,27 +12,34 @@
 </head>
 
 <body>
-    <h1>Welcome to Time Tracker!</h1>
-    <div id="descriptionContainer" class="jumbotron">
+    <div id="sideBar">
+        <div id="welcomeTitle">
+            <h1>Time Tracker</h1>
+        </div>
+        <!-- TODO: add timer function in timeTracker.js -->
+        
+    </div>
+    <!-- <div id="descriptionContainer" class="jumbotron">
         <p class="description">To start your day, just click on the Start button. Input the task name in the box then
             click Stop whenever you have completed the task. The app will automatically calculate the duration of the
             task based on the completion time of the previous task. This will display the Task Name, Completion Time,
             and Elapsed Time.</p>
-    </div>
-    <div class="mainContent">
-        <div class="taskWidget">
-            <div class="addToList">
-                <input id="taskInput" onfocus="this.value=''"
-                    placeholder="ADD YOUR CURRENT TASK"></input>
+    </div> -->
+    <div id="mainContent">
+        <div id="headerBar">
+            <div id="addToList">
+                <input id="taskInput" onfocus="this.value=''" placeholder="What are you working on?"></input>
+                <button type="button" class="btn btn-light" id="startButton" onclick="startButton()">Start</button>
+                <button type="button" class="btn btn-light" id="stopButton" onclick="stopTask()">Stop</button>
             </div>
+           
 
             <div class="startAndStop">
-                <button type="button" class="btn btn-light" id="startButton" onclick="startButton()">Start the
-                    Day</button>
-                <button type="button" class="btn btn-light" id="stopButton" onclick="stopTask()">Stop the Task</button>
+                <!-- <button type="button" class="btn btn-light" id="startButton" onclick="startButton()">Start the
+                    Day</button> -->
             </div>
         </div>
-        <div class="displayWidget">
+        <div id="displayWidget">
             <h2>Started the day!</h2>
             <div id="list"></div>
 
@@ -43,6 +50,6 @@
     <!-- <script src="moment.js"></script> -->
 </body>
 
-<footer>Made with Love by Annie Luc | Version 1.0</footer>
+<!-- <footer>Made with Love by Annie Luc | Version 1.0</footer> -->
 
 </html>
